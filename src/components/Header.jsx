@@ -6,7 +6,7 @@ const Header = ({ category, title }) => {
   const isDark = currentMode === "Dark";
 
   return (
-    <div className='mb-10'>
+    <div className='mb-10 p-5'>
       <p className="text-gray-400">
         {category}
       </p>
